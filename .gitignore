@@ -9,6 +9,7 @@
 *.suo
 *.user
 *.sln.docstates
+*lock.json
 
 # Build results
 
@@ -18,6 +19,7 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+.vs/
 
 # Auto-generated files
 AssemblyVersion.cs
@@ -25,3 +27,4 @@ AssemblyVersion.cs
 # Test outputs
 TestCase/Output/*.bmp
 TestCase/Output/*.jpg
+

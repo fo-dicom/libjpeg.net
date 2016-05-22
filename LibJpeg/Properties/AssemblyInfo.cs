@@ -20,7 +20,9 @@ using System;
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
+#if !NETSTANDARD
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("0614c098-c932-4bb7-998e-8b1cbc546871")]
+#endif
 
 [assembly: CLSCompliant(true)]
