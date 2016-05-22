@@ -3,7 +3,8 @@
     "define": [ "NETSTANDARD", "SILVERLIGHT", "EXPOSE_JPEG" ],
     "keyFile": "../LibJpeg.Portable/libjpeg.snk",
     "outputName": "BitMiracle.LibJpeg.NetCore",
-    "publicSign": true
+    "publicSign": true,
+    "xmlDoc":  true
   },
 
   "dependencies": {

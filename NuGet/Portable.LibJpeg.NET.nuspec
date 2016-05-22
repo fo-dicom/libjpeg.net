@@ -12,12 +12,12 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Portable LibJpeg.NET allows you to read and create JPEG images in .NET compatible languages. It's the managed version of original libjpeg library developed by Tom Lane and the Independent JPEG Group (IJG). 
 
-Supported platforms .NET 4 and higher, Windows 8 and higher, Windows Phone Silverlight 8 and 8.1, Windows Phone 8.1 and higher, Silverlight 5, Xamarin Android, Xamarin iOS (Classic and Unified API).
+Supported platforms .NET 4 and higher, Windows 8 and higher, Windows Phone Silverlight 8 and 8.1, Windows Phone 8.1 and higher, Silverlight 5, Xamarin Android, Xamarin iOS (Classic and Unified API). The package also includes an assembly for .NET Core, Level 1.0.
 
 Portable Class Library is distributed by Cureos AB.</description>
         <summary>LibJpeg.Net allows you to read and create JPEG images in .NET compatible languages.</summary>
         <copyright>© 2008-2016, Bit Miracle; Anders Gustafsson, Cureos AB</copyright>
-		<releaseNotes>Added strong name signing</releaseNotes>
+		<releaseNotes>.NET Core assembly added</releaseNotes>
         <language>en-US</language>
         <tags>JPEG IJG codec PCL Xamarin</tags>
     </metadata>
@@ -25,5 +25,8 @@ Portable Class Library is distributed by Cureos AB.</description>
         <file src="..\LibJpeg.Portable\bin\Release\BitMiracle.LibJpeg.Portable.dll" target="lib\portable-net4+sl5+netcore45+wpa81+wp8" />
         <file src="..\LibJpeg.Portable\bin\Release\BitMiracle.LibJpeg.Portable.pdb" target="lib\portable-net4+sl5+netcore45+wpa81+wp8" />
         <file src="..\LibJpeg.Portable\bin\Release\BitMiracle.LibJpeg.Portable.xml" target="lib\portable-net4+sl5+netcore45+wpa81+wp8" />
+        <file src="..\LibJpeg\bin\Release\netstandard1.0\BitMiracle.LibJpeg.NetCore.dll" target="lib\netstandard1.0" />
+        <file src="..\LibJpeg\bin\Release\netstandard1.0\BitMiracle.LibJpeg.NetCore.pdb" target="lib\netstandard1.0" />
+        <file src="..\LibJpeg\bin\Release\netstandard1.0\BitMiracle.LibJpeg.NetCore.xml" target="lib\netstandard1.0" />
     </files>
 </package>
