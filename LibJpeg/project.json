@@ -1,6 +1,6 @@
 ﻿{
   "buildOptions": {
-    "define": [ "NETSTANDARD", "SILVERLIGHT", "EXPOSE_JPEG" ],
+    "define": [ "NETSTANDARD", "SILVERLIGHT", "EXPOSE_LIBJPEG" ],
     "keyFile": "../LibJpeg.Portable/libjpeg.snk",
     "outputName": "BitMiracle.LibJpeg.NetCore",
     "publicSign": true,
