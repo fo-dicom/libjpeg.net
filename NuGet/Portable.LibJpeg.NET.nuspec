@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Portable.LibJpeg.NET</id>
-        <version>1.5.1</version>
+        <version>1.5.1.1</version>
         <title>Portable LibJpeg.NET</title>
         <authors>Bit Miracle</authors>
         <owners>Bit Miracle; Anders Gustafsson, Cureos AB</owners>
@@ -17,9 +17,27 @@ Supported platforms .NET 4 and higher, Windows 8 and higher, Windows Phone Silve
 Portable Class Library is distributed by Cureos AB.</description>
         <summary>LibJpeg.Net allows you to read and create JPEG images in .NET compatible languages.</summary>
         <copyright>© 2008-2016, Bit Miracle; Anders Gustafsson, Cureos AB</copyright>
-		<releaseNotes>Upgrade .NET Core to 1.0 RTM</releaseNotes>
+		<releaseNotes>Added empty dependencies sections</releaseNotes>
         <language>en-US</language>
 		<dependencies>
+			<group targetFramework="net40">
+			</group>
+			<group targetFramework="sl5">
+			</group>
+			<group targetFramework="netcore45">
+			</group>
+			<group targetFramework="wpa81">
+			</group>
+			<group targetFramework="wp8">
+			</group>
+			<group targetFramework="monoandroid">
+			</group>
+			<group targetFramework="monotouch">
+			</group>
+			<group targetFramework="xamarinios">
+			</group>
+			<group targetFramework="portable-net4+sl5+netcore45+wpa81+wp8">
+			</group>
 			<group targetFramework="netstandard1.0">
 				<dependency id="NETStandard.Library" version="1.6.0"/>
 			</group>
